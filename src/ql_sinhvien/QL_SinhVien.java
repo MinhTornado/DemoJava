@@ -94,6 +94,13 @@ public class QL_SinhVien {
         }
     }
     
+    void outputQLSV(){
+        for(int i =0; i< n; i++){
+            System.out.println("======:Hien SV Thu "+(i+1)+":=====");
+            sv[i].outputSV();
+        }
+    }
+    
     void Search(){
         String temp;
         System.out.println("===========SEARCH============");
