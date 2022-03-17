@@ -51,7 +51,7 @@ class SinhVien extends Nguoi{
         this.namSinh = namSinh;
     }
 
-    public SinhVien() {
+    public SinhVien(int a, int b, int c, int d, int e, int f) {
     }
     
     void inputSV(){
